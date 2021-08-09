@@ -21,7 +21,18 @@ In this repo, we share our codes from our experiment settings for different slee
 * torch >= 1.4.0
 
 ## Results
+### Reproducing models with different pre-processings
+
 <img src="plots/result_others.png"/>
+<img src="plots/result_rf.png" width="610"/>
+
+### Train-test experiment
+
+<img src="plots/result_train_test.png"/>
+
+### Other Results
+All other results including activations, and performance metrics have been saved in `plots`.
+
 
 # Paper Citation
 
