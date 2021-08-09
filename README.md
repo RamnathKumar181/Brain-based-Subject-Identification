@@ -3,7 +3,7 @@
 The code repository for the project - Brain Based Subject Identification. This work was performed during my internship at Universty of Montreal under Projessor Jerbi.
 The major contributions of this work are as follows:
 * We reproduce works such as [EEGNet](http://stacks.iop.org/1741-2552/15/i=5/a=056013), [EEGNet_Old](http://stacks.iop.org/1741-2552/15/i=5/a=056013), [DeepConvNet](https://onlinelibrary.wiley.com/doi/full/10.1002/hbm.23730) and [ShallowConvNet](https://onlinelibrary.wiley.com/doi/full/10.1002/hbm.23730) as well as our very own architecture called BSIT.
-* We test the performance of these deep learning models without any preprocessing on various datasets, including AWA, REM, S1, S2 and SWS.
+* We test the performance of these deep learning models without any preprocessing on various datasets, including AWA, REM, S1, S2 and SWS and also at different frequency ranges, Alpha, Beta, Delta, Theta and All.
 * We also test ML models such as K-Nearest Neighbors, Random Forest, Gradient Boosting, and Support Vector Machines (with Radial and Linear kernel functions) on the same datasets with a domain-induced pre-processing. ([Riemann Time](https://github.com/pyRiemann/pyRiemann), [Riemann Frequency](https://github.com/pyRiemann/pyRiemann) and [Riemann CSP](https://hal.archives-ouvertes.fr/file/index/docid/681328/filename/Barachant_tbme_final.pdf)).
 * We also test these models against there train-split ratio to induce the minimum amount of data needed for the model to make sound results.
 * The novelty of this repository is its extension to evaluate the attribution problem for subject identification. We study various attribution methods such as- Analyzing activations, and Deep dream.
