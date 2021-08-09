@@ -7,6 +7,7 @@ The major contributions of this work are as follows:
 * We also test ML models such as K-Nearest Neighbors, Random Forest, Gradient Boosting, and Support Vector Machines (with Radial and Linear kernel functions) on the same datasets with a domain-induced pre-processing. ([Riemann Time](https://github.com/pyRiemann/pyRiemann), [Riemann Frequency](https://github.com/pyRiemann/pyRiemann) and [Riemann CSP](https://hal.archives-ouvertes.fr/file/index/docid/681328/filename/Barachant_tbme_final.pdf)).
 * We also test these models against there train-split ratio to induce the minimum amount of data needed for the model to make sound results.
 * The novelty of this repository is its extension to evaluate the attribution problem for subject identification. We study various attribution methods such as- Analyzing activations, and Deep dream.
+* Furthermore, we attempt to study the robustness of our models using intruder detection. The idea of the experiment is to hold out subjects during training and asking the model to predict whether the subject is an intruder or not. We do this using a confidence threshold, and visualize these results using the ROC curve as showed in `plots`!
 
 In this repo, we share our codes from our experiment settings for different sleep stages - AWA, REM, S1, S2 and SWS. The codes have been simplified and have been segregated based on the dataset, for easy use and understanding.
 
