@@ -52,23 +52,6 @@ If you use the EEGNet model in your research and found it helpful, please cite t
 }
 ```
 
-If you use the SSVEP variant of the EEGNet model in your research and found it helpful, please cite the following paper:
-
-```
-@article{Waytowich2018,
-  author={Nicholas Waytowich and Vernon J Lawhern and Javier O Garcia and Jennifer Cummings and Josef Faller and Paul Sajda and Jean M
-Vettel},
-  title={Compact convolutional neural networks for classification of asynchronous steady-state visual evoked potentials},
-  journal={Journal of Neural Engineering},
-  volume={15},
-  number={6},
-  pages={066031},
-  url={http://stacks.iop.org/1741-2552/15/i=6/a=066031},
-  year={2018}
-}
-
-```
-
 Similarly, if you use the ShallowConvNet or DeepConvNet models and found them helpful, please cite the following paper:
 
 ```
