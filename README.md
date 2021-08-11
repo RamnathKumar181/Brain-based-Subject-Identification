@@ -34,6 +34,8 @@ In this repo, we share our codes from our experiment settings for different slee
 ### Other Results
 All other results including activations, and performance metrics have been saved in `plots`.
 
+## Acknowledgements
+I would like to thank Prof. Karim Jerbi for giving me the opportunity to work on this project.
 
 # Paper Citation
 
