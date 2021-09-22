@@ -11,6 +11,8 @@ The major contributions of this work are as follows:
 
 In this repo, we share our codes from our experiment settings for different sleep stages - AWA, REM, S1, S2 and SWS. The codes have been simplified and have been segregated based on the dataset, for easy use and understanding.
 
+Although we were not able to push for a paper with this project, I believe we have shown that further study of this setting is warranted, and have provided ample results for attribution for brain-based subject identification.
+
 ### Requirements
 
 * Python == 3.7 or 3.8
